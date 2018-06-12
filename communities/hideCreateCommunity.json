@@ -20,6 +20,6 @@
             },
             "path": "communities",
             "application": "hide Create Community Button"
-        },
+        }
     ]
 }
