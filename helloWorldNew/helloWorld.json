@@ -9,10 +9,10 @@
     {
       "payload": {
         "include-files": [
-          "helloWorld/helloWorld.user.js"
+          "helloWorldNew/helloWorld.user.js"
         ],
 	      "include-repo":{
-	       "name": "global-samples"
+	       "name": "ramsit-repo"
 	     }
       },
       "name": "Hello World Extension",
