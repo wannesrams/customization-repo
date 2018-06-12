@@ -31,7 +31,7 @@ if(typeof(dojo) != "undefined") {
                     if( ++waitInter<maxInter && !dojo.query(elXpath,elXpathRoot).length) return;
 
                     clearInterval(intId);
-                    if( waitInter >= maxInter) { 
+                    if( waitInter >= maxInter) {
                         console.log("**** WAITFOR ["+elXpath+"] WATCH EXPIRED!!! interval "+waitInter+" (max:"+maxInter+")");
                     } else {
                         console.log("**** WAITFOR ["+elXpath+"] WATCH TRIPPED AT interval "+waitInter+" (max:"+maxInter+")");
