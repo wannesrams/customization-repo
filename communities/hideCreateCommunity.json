@@ -7,7 +7,7 @@
     ],
     "extensions": [
         {
-            
+
             "name": "hide Create Community Button",
             "type": "com.ibm.customizer.ui",
             "payload": {
@@ -18,8 +18,11 @@
                     "name": "ramsit-repo"
                 }
             },
+            "cache-headers": {
+                "cache-control": "max-age=0"
+            }
+          },
             "path": "communities",
             "application": "hide Create Community Button"
-        }
     ]
 }
