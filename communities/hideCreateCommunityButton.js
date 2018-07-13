@@ -36,11 +36,11 @@ if(typeof(dojo) != "undefined") {
             waitFor( function(){
 			// wait until the "loading..." node has been hidden
 			// indicating that we have loaded content.
-				var currentUserEmail = lconnCurrentUser.email;
-				console.log(currentUserEmail);
-				if(lconnCurrentUser.email != "wannes@ramsit.com"){
-   			dojo.query("#createPlaceButton").style("display","none");
-				}
-       	          }
+						var currentUserEmail = lconnCurrentUser.email;
+							console.log(currentUserEmail);
+								if(lconnCurrentUser.email != "wannes@ramsit.com"){
+   								dojo.query("#createPlaceButton").style("display","none");
+								}
+       	    });
    });
 }
