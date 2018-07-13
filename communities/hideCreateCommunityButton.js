@@ -36,6 +36,7 @@ if(typeof(dojo) != "undefined") {
             waitFor( function(){
 			// wait until the "loading..." node has been hidden
 			// indicating that we have loaded content.
+				if(lconnCurrentUser.email != "wannes@ramsit.com")
    			dojo.query("#createPlaceButton").style("display","none");
        	          }
    });
