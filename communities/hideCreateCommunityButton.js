@@ -47,3 +47,4 @@ if(typeof(dojo) != "undefined") {
       }
  );
 }
+}
