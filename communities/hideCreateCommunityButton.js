@@ -42,5 +42,8 @@ if(typeof(dojo) != "undefined") {
    								dojo.query("#createPlaceButton").style("display","none");
 								}
        	    });
-   });
+   }catch(e) {
+          alert("Exception occurred in hideCreateCommunityButton: " + e);
+      }
+ );
 }
