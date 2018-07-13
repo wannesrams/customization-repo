@@ -13,6 +13,9 @@
 			"include-files": [
 				"communities/hideCreateCommunityButton.js"
 			],
+			"cache-headers": {
+          "cache-control": "max-age=0"
+        },
 			"include-repo": {
 				"name": "ramsit-repo"
 			}
