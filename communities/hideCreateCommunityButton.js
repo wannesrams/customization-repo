@@ -14,6 +14,6 @@ if(typeof(dojo) != "undefined") {
 		console.log(currentUserEmail);
 		if(lconnCurrentUser.email != "wannes@ramsit.com"){
    		dojo.query("#createPlaceButton").style("display","none");
-      });
-		}
+			}
+		});
 }
