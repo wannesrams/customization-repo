@@ -16,7 +16,7 @@ if(typeof(dojo) != "undefined") {
 			console.log("Showing Create Community button");
 		} else{
 			dojo.query("#createPlaceButton").style("display","none");
-			console.log("Showing Create Community button");
+			console.log("Not showing Create Community button");
 		}
 		});
 }
