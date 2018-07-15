@@ -12,7 +12,7 @@ if(typeof(dojo) != "undefined") {
 	require(["dojo/domReady!"], function(){
 		var currentUserEmail = lconnCurrentUser.email;
 		console.log(currentUserEmail);
-		if(lconnCurrentUser.email != "wannes@ramsit.com"){
+		if(lconnCurrentUser.email != "wannes@ramsit.com" || connCurrentUser.email != "maria@shinythingzz.com"){
    		dojo.query("#createPlaceButton").style("display","none");
 			}
 		});
