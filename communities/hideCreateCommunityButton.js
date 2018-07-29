@@ -12,7 +12,7 @@ if(typeof(dojo) != "undefined") {
 	require(["dojo/domReady!"], function(){
 		var currentUserEmail = lconnCurrentUser.email;
 		console.log(currentUserEmail);
-		if(currentUserEmail == "wannes@ramsit.com" || currentUserEmail == "aria@shinythingzz.com" ){
+		if(currentUserEmail == "wannes@ramsit.com" || currentUserEmail == "maria@shinythingzz.com" || currentUserEmail == "h.chancel@teoxane.com" ){
 			console.log("Showing Create Community button");
 		} else{
 			dojo.query("#createPlaceButton").style("display","none");
