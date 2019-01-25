@@ -1,23 +1,28 @@
 {
-  "name": "Homepage Customization",
-  "title": "Introductory Customizer App",
-  "description": "Inserts text into IBM Connections Homepage",
-  "services": [
-    "Customizer"
-  ],
-  "extensions": [
-    {
-      "payload": {
-        "include-files": [
-          "helloWorldNew/helloWorld.user.js"
-        ],
-	      "include-repo":{
-	       "name": "ramsit-repo"
-	     }
-      },
-      "name": "Hello World Extension",
-      "type": "com.ibm.customizer.ui",
-      "path": "homepage"
-    }
-  ]
+    "name": "Homepage Customization",
+    "title": "Introductory Customizer App",
+    "description": "Inserts text into IBM Connections Homepage",
+    "services": [
+        "Customizer"
+    ],
+    "extensions": [
+        {
+            "id": "0095f154-40c6-4f8c-9abc-cf619d1cfe5b",
+            "name": "Hello World Extension",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "helloWorldNew/helloWorld.user.js"
+                ],
+                "include-repo": {
+                    "name": "ramsit-repo"
+                },
+                "cache-headers": {
+                    "cache-control": "max-age=0"
+                }
+            },
+            "path": "homepage",
+            "application": "Homepage Customization"
+        }
+    ]
 }

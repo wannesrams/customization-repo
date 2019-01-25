@@ -1,25 +1,27 @@
 {
-    "name": "hide Create Community Button",
-    "title": "hide Create Community Button",
-    "description": "hide Create Community Button",
-    "services": [
-        "Customizer"
-    ],
-    "extensions": [
-        {
-            
-            "name": "hide Create Community Button",
-            "type": "com.ibm.customizer.ui",
-            "payload": {
-                "include-files": [
-                    "communities/hideCreateCommunityButton.js"
-                ],
-                "include-repo": {
-                    "name": "ramsit-repo"
-                }
-            },
-            "path": "communities",
-            "application": "hide Create Community Button"
+	"name": "hide Create Community Button",
+	"title": "hide Create Community Button",
+	"description": "hide Create Community Button",
+	"services": [
+		"Customizer"
+	],
+	"extensions": [{
+
+		"name": "hide Create Community Button",
+		"type": "com.ibm.customizer.ui",
+		"payload": {
+			"include-files": [
+				"communities/hideCreateCommunityButton.js"
+			],
+			"cache-headers": {
+          "cache-control": "max-age=0"
         },
-    ]
+			"include-repo": {
+				"name": "ramsit-repo"
+			}
+		},
+		"path": "communities",
+					 "application": "hide Create Community Button"
+			 }
+	 ]
 }
